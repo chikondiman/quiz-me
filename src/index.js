@@ -24,7 +24,9 @@ class QuizBee extends Component {
             QuizBee
             </div>
             {this.state.questionBank.length > 0 && this.state.questionBank.map(({question, answers, correct, questionId}) => 
-            (<QuestionBox question={question} options={answers} key={quesionId}/>
+            (<QuestionBox question={question} options={answers} key={questionId}/>
+            )
+    
             )}
             </div>
         );
