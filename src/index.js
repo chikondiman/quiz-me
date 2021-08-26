@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ".assets/style.css";
+import "./assets/style.css";
 import ReactDOM from "react-dom";
 class QuizBee extends Component {
     render() {
