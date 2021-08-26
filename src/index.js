@@ -23,7 +23,8 @@ class QuizBee extends Component {
             <div className="title"> 
             QuizBee
             </div>
-            {this.state.questionBank.length > 0 }
+            {this.state.questionBank.length > 0 && this.state.questionBank.map(({question, answers, correct, questionId}) => <h4>{question}</h4>
+            )}
             </div>
         );
     }
